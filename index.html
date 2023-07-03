@@ -1,141 +1,324 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Page Title</title>
+<title>Michel Dufour T.P</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-* {
-  box-sizing: border-box;
-}
-
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #fffacd
-  margin: 0;
-}
-
-/* Header/logo Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
 }
 
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
+#button1, #button2, #button3, #button4, #button5 {
+  font-weight: bold;
 }
 
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  //background-color: #f1f1f1;
-  background-color: #ffe4c4;
-  padding: 20px;
-}
-
-/* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-
-.MD {
-  border-radius: 50%;
+#backimg {
+  background-image: url("IMG_0168.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 </style>
 </head>
-<body>
+<body class="w3-pale-green">
 
-<div class="w3-container">
-	<div class="header">
-	  <h1>Michel Dufour T.P</h1><br>
-	  <h>En construction</h><br>
-	  
-	  <!-- <p>A website created by me.</p> -->
-	</div>
+<div class="w3-content" style="max-width:1400px">
 
-	<div class="navbar">
-	  <a href="#">MJPD</a>
-	</div>
+	<!-- Header -->
+	<header class="w3-container w3-center w3-padding-32 header"> 
+	  <h1><b>Michel Dufour <a href="https://www.otpq.qc.ca/" target="_blank">T.P</a></b></h1>
+	  <p></p>
+	</header>
 
+	<!-- Grid -->
+	<div class="w3-row" id="backimg">
 
-	<div class="footer">
-	  <h2>MD</h2>
-	</div>
+		<!-- Site entries -->
+		<div class="w3-col l8">
+			<!-- Site entry -->
+			<div class="w3-card-4 w3-margin w3-dark-grey w3-round-large">
+				<div class="w3-container">
+					<h3><b>Bonjour</b></h3>
+				</div>
+
+				<div class="w3-container">
+					<p>J'ai travaillé chez Douglas Lighting Controls durant les dernières 41 ans 
+					principalement au développement de plusieurs générations de systèmes de contrôle 
+					d'éclairage pour des centaines de bâtiments commerciaux et industriels à travers l’Amérique du nord.</p>
+					<div class="w3-row">
+						<div class="w3-col">
+							<div id="Plus1" class="w3-hide">
+								<p>Durant ces années j'ai travaillé sur plusieurs plates-formes de développement. 
+								 J'ai une très grande facilité à en utiliser de nouvelles.<br><br>
+								 J'aime les défis de travailler avec de nouveaux outils de programmation  pour des applications 
+								 qui serviront aux utilisateurs, à l'équipe d’assurance de la qualité ou pour les logiciels 
+								 qui rouleront sur microcontrôleurs.<br><br>
+								 J'aime le travail d'équipe et l'entraide que cela génère.  Étant le seul à Montréal, 
+								 j'ai travaillé la plus grande parti de mon emploi à distance avec l'équipe de Vancouver.</p>
+							</div>
+							<p><button id="button1" onclick="myFunction('Plus1', 'button1')" class="w3-button w3-padding-large w3-white w3-border"><b>Lire la suite »</b></button></p>
+						</div> 
+					</div> 
+				</div>
+			</div>
+			<!-- <hr> -->
+
+			<!-- Site entry -->
+			<div class="w3-card-4 w3-margin w3-dark-grey w3-round-large">
+				<div class="w3-container">
+					<h3><b>Biographie</b></h3>
+				</div>
+
+				<div class="w3-container">
+					<p>Je suis diplômé de l'Université du Québec à Montréal avec un certificat de premier cycle en Microprocesseurs. 
+					Je suis également technicien en électronique, diplômé du Cégep Ahuntsic. 
+					Je suis membre de l'<a href="https://www.otpq.qc.ca/" target="_blank">OTPQ</a> et de 
+					<a href="https://www.linkedin.com/in/michel-dufour-t-p-8b2198a1/" target="_blank">Linkedin.</a></p>
+					<div class="w3-row">
+						<div class="w3-col">
+							<div id="Plus2" class="w3-hide">
+								<p>Après mon DEC, j'ai été relève d'été à Radio Canada comme technicien d'émetteur sur le Mont-Royal.<br><br>
+								   De 1978 à 1982, j'ai travaillé durant quatre ans chez Normex International. 
+								   Chargé pricipalement de la conception de la construction et des tests d'interfaces pour usines de ciment.<br>
+								   Exp Site: Usine de ciment Catatumbo au Venezuela. Ciment Lafarge.<br><br>
+								   De 1982 à mars 2023 j'étais employé de Universal Douglas ou Douglas Ligthing Controls.
+								   J'étais en charge du développement de sytèmes et d'unités d'éclairage.<br><br></p>   
+								<dl>
+								<dt><b>Pricipales tâches</b></dt><br>
+								<dd>- Développement de systèmes de contrôle d'éclairage pour les commerces et les industries.</dd>
+								<dd>- Conception des interfaces et des logiciels embarqués.</dd>
+								<dd>- Conception des pilotes pour détecteurs de mouvement infrarouge et micro-ondes, pour détecteurs de luminosité, UART, I2C, SPI, PWM, Telnet, Ftp etc.</dd>
+								<dd>- Conception de CLC pour luminosité.</dd>
+								<dd>- Conception des logiciels de commande et de programmation pour l'usager.</dd>
+								<dd>- Conception des outils et des logiciels de test.</dd>
+								<dd>- Conception de passerelles et des logiciels pour permettre l'intégration des systèmes.</dd>
+								<dd>- Soumission des nouveaux produits pour certification ainsi que pour rencontrer des standards.</dd>
+								<dd>- Maintenance et mise à jour des logiciels.</dd>
+								<dd>- Revue de code.</dd>
+								</dl>
+					
+							</div>
+							<p><button id="button2" onclick="myFunction('Plus2', 'button2')" class="w3-button w3-padding-large w3-white w3-border"><b>Lire la suite »</b></button></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <hr> -->
+
+			<!-- Site entry -->
+			<div class="w3-card-4 w3-margin w3-dark-grey w3-round-large">
+				<div class="w3-container">
+					<h3><b>Compétences</b></h3>
+				</div>
+
+				<div class="w3-container">
+					<dl>
+						<dt><b>Languages de programmation</b></dt>
+						<dd>- Assembleur.</dd>
+						<dd>- C, C++, C#.</dd>
+						<dd>- VB.</dd>
+						<dd>- Java, JavaScripts, JQuery.</dd>
+					</dl>
+					<div class="w3-row">
+						<div class="w3-col">
+							<div id="Plus3" class="w3-hide">
+								<p></p>
+								<dl>
+									<dt><b>Électronique</b></dt>
+										<dd>- Conception et vérification de circuits.</dd>
+										<dd>- Circuits imprimés.</dd>
+										<dd>- Multimètre, oscilloscope, analyseur de signaux.</dd>
+										<dd>- Alimentation, fréquencemètre, etc.</dd>
+									<br><dt><b>Languages de balisage</b></dt>
+										<dd>- HTML, CSS, PHP, etc.</dd>
+									<br><dt><b>Environnements pour MCUs</b></dt>
+										<dd>- MPLAB, PIC16.. chip.</dd>
+										<dd>- Node Builder, Neuron chip.</dd>
+										<dd>- TI Code Composer, MSP430 chip.</dd>
+										<dd>- Keil uVision, Arm Cortex-M3 chip.</dd>
+										<dd>- CSR Qualcomm uEnergy SDK Mesh.</dd>
+										<dd>- SEGGER Embedded Studio, Nordic nRF52833 chip.</dd>
+										<dd>- Visual Studio Code, nRF52833 chip.</dd>
+									<br><dt><b>Environnements logiciels sur PC</b></dt>
+										<dd>- Borland C++ Builder.</dd>
+										<dd>- Visual Studio 2008, 2022.</dd>
+										<dd>- Embarcadero.</dd>
+									<br><dt><b>Protocols de communication</b></dt>
+										<dd>- RS-422, RS-485.</dd>
+										<dd>- DMX-512, Dali, RS-485 MODBUSS.</dd>
+										<dd>- BACnet IP, RS-485 BACnet MSTP.</dd>
+										<dd>- Echelon Lontalk FTT10.</dd>
+										<dd>- Panasonic Full2Way.</dd>
+									<br><dt><b>Logiciels usuels</b></dt>
+										<dd>- MS Office.</dd>
+										<dd>- JIRA, Surround SCM, Install Shield.</dd>
+										<dd>- GitHub, GitBash, GitKraken.</dd>
+										<dd>- VMware.</dd>
+										<dd>- MS SQL, MySQL.</dd>
+										<dd>- .NET Framework.</dd>
+									<br><dt><b>Conceptions spéciales effectués</b></dt>
+										<dd>- Piles BACnet IP et MSTP.</dd>
+										<dd>- OPC serveurs RS-485 et SOAP.</dd>
+										<dd>- Base de données Btrieve et SQL pour systèmes d'éclairage.</dd>
+								</dl>
+							</div>
+							<p><button id="button3" onclick="myFunction('Plus3', 'button3')" class="w3-button w3-padding-large w3-white w3-border"><b>Lire la suite »</b></button></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <hr> -->
+
+			<!-- Site entry -->
+			<div class="w3-card-4 w3-margin w3-dark-grey w3-round-large">
+				<div class="w3-container">
+					<h3><b>Principaux projets</b></h3>
+				</div>
+
+				<div class="w3-container">
+					<p>
+						<b>Système sans fils intérieur.  BLE. Série 4000</b><br>
+						Système d'éclairage avec technoogie Bluetooth SIG mesh.<br>
+						Développement logiciels embarqués en C. Nordic nRF MCU. <br>Environnement  Segger Embedded Studio.
+					</p>
+					<div class="w3-row">
+						<div class="w3-col">
+							<div id="Plus4" class="w3-hide">
+								<p>
+									<b>Système sans fils intérieur. Série BT</b><br>
+									Système d'éclairage avec technologie Bluetooth CSR Qualcomm.<br>
+									Développement logiciels embarqués en C. 
+									<br>Environnements Keil uVision, CSR Qualcomm uEnergy SDK et MPLAB pic C.
+									<br>Maintenance logiciel analyseur de messages Bluetooth avec C++ Embarcadero.
+									<br><b>Site:</b> CHU de Québec-Université Laval.<br><br>
+
+									<b>Dialog Room Controller</b><br>
+									Chargé du développement des unités. Unité autonome. 
+									<br>Système de contrôle décentralisée pour bureaux, salles de classe et espaces définis.  UL924 / CSA C22.2 No. 141 
+									<br>Analyseur du protocole propriétaire avec VS 2008 – C#. 
+									<br>Développement logiciels embarqués en C. Environnements Keil uVision et TI Code Composer.<br><br>
+
+									<b>BACnet IP</b><br>
+									Librairie pile BACnet avec VS 2008 – C#.
+									<br>Programme de test BACnet utilisant la pile BACnet  avec VS 2008 – C#.
+									<br>Passerelle BACnet / Flexnet. Logiciel embarqué en C avec Keil uVision.<br><br>								
+
+									<b>MC-6000</b><br>
+									Conception et développement d'un système de contrôle d'éclairage pouvant gérer 250 cabinets contenant chacun un maximum de 64 relais électromécaniques et 64 entrées numériques. Intelligence distribuée. Unités modulaires.  Protocole propriétaire sur RS-485.
+									<br>Logiciel utilisateur avec VS 2008 – C# - MS SQL.
+									<br>Logiciel pour convertir les bases de données de MC600 Btrieve à fichier texte avec C++ Builder.
+									<br>Logiciel pour convertir les les fichiers textes à bases de données de MC6000 SQL VS 2008 – C# MS – SQL.
+									<br>OPC serveur – Permettre intégration systèmes SCADA etc. VS 2008 – C#.
+									<br>Logiciel embarqués:
+									<br>Borland C et assembleur pour microcontrôleur NEC.
+									<br>MPLAB C pour microcontrôleur PIC.
+									<dl>
+										<dt><b>Sites:</b></dt>
+											<dd>- Aréna des Kings de Los Angeles.</dd>
+											<dd>- Magasins Canadian Tire.</dd>
+											<dd>- Aéroport de Montréal.</dd>
+											<dd>- Aéroport de Toronto.</dd>
+											<dd>- Hôpital Constantine, Algérie.</dd>
+											<dd>- Hôpital Oran, Algérie.</dd>
+											<dd>- Palais de justice, Bermudes.</dd>
+									</dl>
+									
+									<b>MC-600</b>
+									<br>Conception et développement d'un système de contrôle d'éclairage pouvant gérer 250 cabinets contenant chacun un maximum de 64 relais électromécaniques et 64 entrées numériques. Intelligence distribuée.
+									<br>Protocole propriétaire sur RS-485.
+									<br>Logiciel utilisateur avec C++ - base de données  Betrieve.
+									<br>Analyseur du protocole propriétaire avec C++ Builder. 
+									<br>Logiciel pour convertir les bases de données de MC250 à MC600 avec C++ Builder.
+									<br>Logiciel embarqué – Borland C et assembleur pour microcontrôleur NEC.
+									<dl>
+										<dt><b>Sites:</b></dt>
+											<dd>- Casino de Montréal.</dd>
+											<dd>- Centre Bell.</dd>
+											<dd>- Aréna des Canucks de Vancouver.</dd>
+											<dd>- Aéroport de Toronto.</dd>
+											<dd>- Bibliothèque de Dakar, Sénégal.</dd>
+									</dl>
+									
+									<b>MC-250</b>
+									<br>Conception et développement d'un système de contrôle d'éclairage en ligne qui peu contrôler 255 cabinets contenant chacun un maximum de 32 relais électromécaniques et 16 entrées numériques. Intelligence centralisée. Protocole propriétaire sur RS-422.
+									<br>Conception:
+									<br>Logiciel utilisateur avec Borland C et Assembleur -  base de données  Betrieve.
+									<br>Logiciel embarqué – Assembleur pour microprocesseur Rockwell.
+									<br><b>Site:</b> Centre Canadien d'architecture de Montréal.<br><br>
+
+									<b>MC-500</b>
+									<br>Prise en charge de la conception d'un système de contrôle d'éclairage en ligne qui peu contrôler 255 cabinets contenant chacun un maximum de 64 relais électromécaniques et  64 entrées numériques. Intelligence centralisée. Protocole propriétaire sur RS-422.
+									<br>Logiciel utilisateur avec Borland C et Assembleur -  base de données  Betrieve.
+									<br>Logiciel embarqué – Assembleur pour microprocesseur Zilog.
+									<dl>
+										<dt><b>Sites:</b></dt>
+											<dd>- Sun Life Toronto.</dd>
+											<dd>- Crown Life Toronto.</dd>
+											<dd>- Roger Center - Skydome Toronto.</dd>
+									</dl>
+								</p>
+							</div>
+							<p><button id="button4" onclick="myFunction('Plus4', 'button4')" class="w3-button w3-padding-large w3-white w3-border"><b>Lire la suite »</b></button></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- END BLOG ENTRIES -->
+		</div>
+
+		<!-- Introduction menu -->
+		<div class="w3-col l4">
+			<!-- About Card -->
+			<div class="w3-card-4 w3-margin w3-margin-top">
+				<!-- <img src="2014-09-03-49327.jpg" style="width:100%"> -->
+				<div class="w3-container w3-dark-grey w3-round-large">
+					<h4><b>MD</b></h4>
+					<p>Je suis un genre de "Jack of all trades" pour ce qui est de l'électronique et de la programmation.</p>
+				</div>
+			</div>
+		</div> 
+
+	<!-- END GRID -->
+	</div><br>
+
+<!-- END w3-content -->
 </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <p>Membre de <a href="https://www.linkedin.com/in/michel-dufour-t-p-8b2198a1/" target="_blank">Linkedin</a></p>
+</footer>
+
+<script>
+function myFunction(id1, id2) {
+	var x = document.getElementById(id1);
+	var y = document.getElementById(id2);
+  
+	if (x.className.indexOf("w3-show") == -1) 
+	{
+		x.className += " w3-show";
+		if(y.id == "button5")
+			y.innerHTML = "Retour";
+		else
+			y.innerHTML = "Lire moins";
+	} 
+	else 
+	{ 
+		x.className = x.className.replace(" w3-show", "");
+		if(y.id == "button5")
+			y.innerHTML = "Exemples »";
+		else
+			y.innerHTML = "Lire la suite »";
+	}
+}
+
+
+</script>
 </body>
 </html>
